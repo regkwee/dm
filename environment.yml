@@ -1,0 +1,15 @@
+# conda env create -f environment.yml
+name: xrdemo
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  # jupyter
+  - jupyterlab
+  # xarray
+  - xarray
+  - dask
+  - netcdf4
+  - numpy
+  - matplotlib
+  - cartopy
